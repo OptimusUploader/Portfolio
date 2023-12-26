@@ -62,6 +62,7 @@ if (southYardRoutes.includes(routeNameIdiotProof)) {
     $("h2").text("BUSHMAN LOT (GATE 2)");
     var bushmanRouteList = bushmanYardRoutes.indexOf(routeNameIdiotProof);
     $("h3").text("Row: " + bushmanTrailerRow[bushmanRouteList] + "\xa0\xa0\xa0" +  "Spot: " +  bushmanTrailerSpot[bushmanRouteList]);
+    $("h4").text("Touch screen for new entry");
     
 
     } else if (pscYardRoutes.includes(routeNameIdiotProof)) {
