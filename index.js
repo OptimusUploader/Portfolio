@@ -5,7 +5,7 @@ $("h2").text("Touch screen to start!");
 $(document).click(function(){
 
     $("h1").text("");
-    $("h2").text("");
+    $("h2").text("Touch screen to start!");
     $("h3").text("");
     $("h4").text("");
 
