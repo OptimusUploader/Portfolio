@@ -9,7 +9,7 @@ $(document).click(function(){
     $("h3").text("");
     $("h4").text("");
 
-var routeName = prompt("Diagram 11.06.23.\xa0\xa0\xa0\What is your route?");
+var routeName = prompt("What is your route?\xa0\xa0\xa0\ Yard diagram 11.06.23.");
 var routeNameIdiotProof = routeName.toLowerCase().slice(0,4);
 var spot = "Check entire row!"
 
